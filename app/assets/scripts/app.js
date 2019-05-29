@@ -1,17 +1,4 @@
-/*node.js-------------------------- var Person = require('./modules/Person');   ---------------node.js */
-import Person from './modules/Person';
+import MobileMenu from './modules/MobileMenu';
 
-alert("tklhvlkdsvkdkn");
 
-class Adult extends Person{
-    payTaxes(){
-        console.log(this.name + "ows nothing");
-    }
-}
-var john = new Person("John Doe","blue");
-john.greet();
-
-var jane = new Adult("Jane Doe","black");
-jane.greet();
-jane.payTaxes();
-
+var mobileMenu = new MobileMenu();
